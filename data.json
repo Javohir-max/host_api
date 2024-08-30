@@ -1,0 +1,528 @@
+{
+  "data": {
+    "status": "success",
+    "call_id": "4913b3d8-d732-4fca-b5fe-26e2391f20da",
+    "call_time": "2024-08-28T15:56:43.849792Z",
+    "message": "Все ок.",
+    "code": 0,
+    "data": {
+      "request_id": "c395abb5-2476-4f55-a789-4b4f1841bb72",
+      "trip_type": "OW",
+      "sort_type": "price",
+      "currency": "UZS",
+      "count": 2,
+      "next_token": null,
+      "offers": [
+        {
+          "offer_id": "6ac9bcf0-ae3a-409f-8757-6654a4b942e7",
+          "price_info": {
+            "price": 6901829,
+            "currency": "UZS",
+            "fee_amount": 0,
+            "base_amount": 6059586,
+            "payable_amount": 6901829,
+            "commission_amount": 0
+          },
+          "upsell": true,
+          "booking": true,
+          "is_baggage_info_provided_by_pax": false,
+          "is_no_changing_airport": false,
+          "price_details": [
+            {
+              "passenger_type": "ADT",
+              "currency": "UZS",
+              "quantity": 1,
+              "single_base_amount": 6059586,
+              "single_tax_amount": 842243,
+              "single_tax_details": [],
+              "fee_amount": 0,
+              "commission_amount": 0,
+              "single_total_amount": 6901829,
+              "base_total_amount": 6059586,
+              "tax_total_amount": 842243,
+              "total_amount": 6901829,
+              "payable_amount": 6901829,
+              "service_fee_amount": 0,
+              "single_comission_amount": 0,
+              "single_fee_amount": 0,
+              "single_payable_amount": 6901829
+            }
+          ],
+          "baggages_info": [
+            {
+              "segment_keys": [
+                "8c092443b92e1655ce912977349e3f42542d55f85fc72865bc6458e69f25ac9e",
+                "0d0fb5a9303335483c997da2c7a98edf14cc4be9c11937b3f7d6a37bc004c3d9",
+                "58bedcfd1e595dd4fa990ae44212e825a2e3c17cb104f5f2bec512740b4ca82b"
+              ],
+              "leg": [
+                "TAS-LED",
+                "LED-SVO",
+                "SVO-DXB"
+              ],
+              "passenger_type": "ADT",
+              "baggage": {
+                "value": 0,
+                "unit": "",
+                "size": {
+                  "height": null,
+                  "width": null,
+                  "length": null,
+                  "unit": ""
+                }
+              },
+              "hand_baggage": {
+                "value": 0,
+                "unit": "KG",
+                "size": {
+                  "height": null,
+                  "width": null,
+                  "length": null,
+                  "unit": ""
+                }
+              },
+              "description": ""
+            }
+          ],
+          "fares_info": [
+            {
+              "segment_keys": [
+                "8c092443b92e1655ce912977349e3f42542d55f85fc72865bc6458e69f25ac9e",
+                "0d0fb5a9303335483c997da2c7a98edf14cc4be9c11937b3f7d6a37bc004c3d9",
+                "58bedcfd1e595dd4fa990ae44212e825a2e3c17cb104f5f2bec512740b4ca82b"
+              ],
+              "leg": [
+                "TAS-LED",
+                "LED-SVO",
+                "SVO-DXB"
+              ],
+              "passenger_type": "ADT",
+              "seats": 1,
+              "upsell": {
+                "name": "NB",
+                "services": []
+              },
+              "fare_code": "TNB",
+              "service_class": "Эконом",
+              "service_class_code": "E",
+              "booking_class": "T",
+              "description": ""
+            }
+          ],
+          "routes": [
+            {
+              "route_index": 1,
+              "direction": "TAS-DXB",
+              "stops": 2,
+              "trip_time_minutes": 3150,
+              "flight_time_minutes": 725,
+              "segments": [
+                {
+                  "segment_index": 1,
+                  "segment_key": "8c092443b92e1655ce912977349e3f42542d55f85fc72865bc6458e69f25ac9e",
+                  "leg": "TAS-LED",
+                  "flight_number": "6972",
+                  "departure_country": "Uzbekistan",
+                  "departure_country_code": "UZ",
+                  "departure_city": "Tashkent",
+                  "departure_city_code": "TAS",
+                  "departure_airport": "Tashkent International Airport",
+                  "departure_airport_code": "TAS",
+                  "departure_terminal": "2 ",
+                  "departure_date": "2024-09-19",
+                  "departure_time": "11:00",
+                  "departure_timezone": "UTC+5",
+                  "arrival_country": "Russian Federation",
+                  "arrival_country_code": "RU",
+                  "arrival_city": "Saint Petersburg",
+                  "arrival_city_code": "LED",
+                  "arrival_airport": "Pulkovo Airport",
+                  "arrival_airport_code": "LED",
+                  "arrival_terminal": "1 ",
+                  "arrival_date": "2024-09-19",
+                  "arrival_time": "13:55",
+                  "arrival_timezone": "UTC+3",
+                  "duration_minutes": 295,
+                  "stop_time_minutes": 380,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Россия",
+                  "operating_airline_code": "FV",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/FV.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "BOEING 737",
+                    "airplane_code": "73H",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                },
+                {
+                  "segment_index": 2,
+                  "segment_key": "0d0fb5a9303335483c997da2c7a98edf14cc4be9c11937b3f7d6a37bc004c3d9",
+                  "leg": "LED-SVO",
+                  "flight_number": "27",
+                  "departure_country": "Russian Federation",
+                  "departure_country_code": "RU",
+                  "departure_city": "Saint Petersburg",
+                  "departure_city_code": "LED",
+                  "departure_airport": "Pulkovo Airport",
+                  "departure_airport_code": "LED",
+                  "departure_terminal": "1 ",
+                  "departure_date": "2024-09-19",
+                  "departure_time": "20:15",
+                  "departure_timezone": "UTC+3",
+                  "arrival_country": "Russian Federation",
+                  "arrival_country_code": "RU",
+                  "arrival_city": "Moscow",
+                  "arrival_city_code": "SVO",
+                  "arrival_airport": "Sheremetyevo Airport",
+                  "arrival_airport_code": "SVO",
+                  "arrival_terminal": "B ",
+                  "arrival_date": "2024-09-19",
+                  "arrival_time": "21:45",
+                  "arrival_timezone": "UTC+3",
+                  "duration_minutes": 90,
+                  "stop_time_minutes": 2045,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Аэрофлот",
+                  "operating_airline_code": "SU",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "Airbus A321 (sharklets)",
+                    "airplane_code": "32B",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                },
+                {
+                  "segment_index": 3,
+                  "segment_key": "58bedcfd1e595dd4fa990ae44212e825a2e3c17cb104f5f2bec512740b4ca82b",
+                  "leg": "SVO-DXB",
+                  "flight_number": "520",
+                  "departure_country": "Russian Federation",
+                  "departure_country_code": "RU",
+                  "departure_city": "Moscow",
+                  "departure_city_code": "SVO",
+                  "departure_airport": "Sheremetyevo Airport",
+                  "departure_airport_code": "SVO",
+                  "departure_terminal": "C ",
+                  "departure_date": "2024-09-21",
+                  "departure_time": "07:50",
+                  "departure_timezone": "UTC+3",
+                  "arrival_country": "United Arab Emirates",
+                  "arrival_country_code": "AE",
+                  "arrival_city": "Dubai",
+                  "arrival_city_code": "DXB",
+                  "arrival_airport": "Dubai Metropolitan Area Airport",
+                  "arrival_airport_code": "DXB",
+                  "arrival_terminal": "1 ",
+                  "arrival_date": "2024-09-21",
+                  "arrival_time": "14:30",
+                  "arrival_timezone": "UTC+4",
+                  "duration_minutes": 340,
+                  "stop_time_minutes": 0,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Аэрофлот",
+                  "operating_airline_code": "SU",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "BOEING 737",
+                    "airplane_code": "73H",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": {
+            "provider_id": "b86462121d544464804c0b2508ba578f",
+            "name": "Боевой ЕТМ ",
+            "index": 266,
+            "type": "contract",
+            "is_charter": false
+          },
+          "supplier_provider": {
+            "provider_name": "FLOT",
+            "provider_office": "3185 (DTK)"
+          }
+        },
+        {
+          "offer_id": "963d21a9-312e-4c89-b499-bd9616a76d99",
+          "price_info": {
+            "price": 6901829,
+            "currency": "UZS",
+            "fee_amount": 0,
+            "base_amount": 6059586,
+            "payable_amount": 6901829,
+            "commission_amount": 0
+          },
+          "upsell": true,
+          "booking": true,
+          "is_baggage_info_provided_by_pax": false,
+          "is_no_changing_airport": false,
+          "price_details": [
+            {
+              "passenger_type": "ADT",
+              "currency": "UZS",
+              "quantity": 1,
+              "single_base_amount": 6059586,
+              "single_tax_amount": 842243,
+              "single_tax_details": [],
+              "fee_amount": 0,
+              "commission_amount": 0,
+              "single_total_amount": 6901829,
+              "base_total_amount": 6059586,
+              "tax_total_amount": 842243,
+              "total_amount": 6901829,
+              "payable_amount": 6901829,
+              "service_fee_amount": 0,
+              "single_comission_amount": 0,
+              "single_fee_amount": 0,
+              "single_payable_amount": 6901829
+            }
+          ],
+          "baggages_info": [
+            {
+              "segment_keys": [
+                "627fce27cbd60b810c9c0bcfb22dc0e824a15f2e633f6115b8aec36ec8d98b56",
+                "ad13451680de5d566b15fc02a3c73bf0abed629b52fb2587b8af81ba225760af",
+                "b1fd3191bea5c715ff0c13a65674ca61a853d83ad3ba9c1c6623e60c388867c8"
+              ],
+              "leg": [
+                "TAS-LED",
+                "LED-SVO",
+                "SVO-DXB"
+              ],
+              "passenger_type": "ADT",
+              "baggage": {
+                "value": 0,
+                "unit": "",
+                "size": {
+                  "height": null,
+                  "width": null,
+                  "length": null,
+                  "unit": ""
+                }
+              },
+              "hand_baggage": {
+                "value": 0,
+                "unit": "KG",
+                "size": {
+                  "height": null,
+                  "width": null,
+                  "length": null,
+                  "unit": ""
+                }
+              },
+              "description": ""
+            }
+          ],
+          "fares_info": [
+            {
+              "segment_keys": [
+                "627fce27cbd60b810c9c0bcfb22dc0e824a15f2e633f6115b8aec36ec8d98b56",
+                "ad13451680de5d566b15fc02a3c73bf0abed629b52fb2587b8af81ba225760af",
+                "b1fd3191bea5c715ff0c13a65674ca61a853d83ad3ba9c1c6623e60c388867c8"
+              ],
+              "leg": [
+                "TAS-LED",
+                "LED-SVO",
+                "SVO-DXB"
+              ],
+              "passenger_type": "ADT",
+              "seats": 1,
+              "upsell": {
+                "name": "NB",
+                "services": []
+              },
+              "fare_code": "TNB",
+              "service_class": "Эконом",
+              "service_class_code": "E",
+              "booking_class": "T",
+              "description": ""
+            }
+          ],
+          "routes": [
+            {
+              "route_index": 1,
+              "direction": "TAS-DXB",
+              "stops": 2,
+              "trip_time_minutes": 3150,
+              "flight_time_minutes": 725,
+              "segments": [
+                {
+                  "segment_index": 1,
+                  "segment_key": "627fce27cbd60b810c9c0bcfb22dc0e824a15f2e633f6115b8aec36ec8d98b56",
+                  "leg": "TAS-LED",
+                  "flight_number": "6972",
+                  "departure_country": "Uzbekistan",
+                  "departure_country_code": "UZ",
+                  "departure_city": "Tashkent",
+                  "departure_city_code": "TAS",
+                  "departure_airport": "Tashkent International Airport",
+                  "departure_airport_code": "TAS",
+                  "departure_terminal": "2 ",
+                  "departure_date": "2024-09-19",
+                  "departure_time": "11:00",
+                  "departure_timezone": "UTC+5",
+                  "arrival_country": "Russian Federation",
+                  "arrival_country_code": "RU",
+                  "arrival_city": "Saint Petersburg",
+                  "arrival_city_code": "LED",
+                  "arrival_airport": "Pulkovo Airport",
+                  "arrival_airport_code": "LED",
+                  "arrival_terminal": "1 ",
+                  "arrival_date": "2024-09-19",
+                  "arrival_time": "13:55",
+                  "arrival_timezone": "UTC+3",
+                  "duration_minutes": 295,
+                  "stop_time_minutes": 350,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Россия",
+                  "operating_airline_code": "FV",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/FV.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "BOEING 737",
+                    "airplane_code": "73H",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                },
+                {
+                  "segment_index": 2,
+                  "segment_key": "ad13451680de5d566b15fc02a3c73bf0abed629b52fb2587b8af81ba225760af",
+                  "leg": "LED-SVO",
+                  "flight_number": "25",
+                  "departure_country": "Russian Federation",
+                  "departure_country_code": "RU",
+                  "departure_city": "Saint Petersburg",
+                  "departure_city_code": "LED",
+                  "departure_airport": "Pulkovo Airport",
+                  "departure_airport_code": "LED",
+                  "departure_terminal": "1 ",
+                  "departure_date": "2024-09-19",
+                  "departure_time": "19:45",
+                  "departure_timezone": "UTC+3",
+                  "arrival_country": "Russian Federation",
+                  "arrival_country_code": "RU",
+                  "arrival_city": "Moscow",
+                  "arrival_city_code": "SVO",
+                  "arrival_airport": "Sheremetyevo Airport",
+                  "arrival_airport_code": "SVO",
+                  "arrival_terminal": "B ",
+                  "arrival_date": "2024-09-19",
+                  "arrival_time": "21:15",
+                  "arrival_timezone": "UTC+3",
+                  "duration_minutes": 90,
+                  "stop_time_minutes": 2075,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Аэрофлот",
+                  "operating_airline_code": "SU",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "Airbus A321 (sharklets)",
+                    "airplane_code": "32B",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                },
+                {
+                  "segment_index": 3,
+                  "segment_key": "b1fd3191bea5c715ff0c13a65674ca61a853d83ad3ba9c1c6623e60c388867c8",
+                  "leg": "SVO-DXB",
+                  "flight_number": "520",
+                  "departure_country": "Russian Federation",
+                  "departure_country_code": "RU",
+                  "departure_city": "Moscow",
+                  "departure_city_code": "SVO",
+                  "departure_airport": "Sheremetyevo Airport",
+                  "departure_airport_code": "SVO",
+                  "departure_terminal": "C ",
+                  "departure_date": "2024-09-21",
+                  "departure_time": "07:50",
+                  "departure_timezone": "UTC+3",
+                  "arrival_country": "United Arab Emirates",
+                  "arrival_country_code": "AE",
+                  "arrival_city": "Dubai",
+                  "arrival_city_code": "DXB",
+                  "arrival_airport": "Dubai Metropolitan Area Airport",
+                  "arrival_airport_code": "DXB",
+                  "arrival_terminal": "1 ",
+                  "arrival_date": "2024-09-21",
+                  "arrival_time": "14:30",
+                  "arrival_timezone": "UTC+4",
+                  "duration_minutes": 340,
+                  "stop_time_minutes": 0,
+                  "marketing_airline": "Аэрофлот",
+                  "marketing_airline_code": "SU",
+                  "marketing_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "operating_airline": "Аэрофлот",
+                  "operating_airline_code": "SU",
+                  "operating_airline_logo": "https://api2.globaltravel.space/media/airlines/SU.png",
+                  "seatmap_availability": false,
+                  "services_availability": false,
+                  "airplane_info": {
+                    "airplane": "BOEING 737",
+                    "airplane_code": "73H",
+                    "seat_width": "",
+                    "seat_angle": "",
+                    "seat_scheme": "",
+                    "seat_distance": "",
+                    "has_wifi": false
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": {
+            "provider_id": "b86462121d544464804c0b2508ba578f",
+            "name": "Боевой ЕТМ ",
+            "index": 266,
+            "type": "contract",
+            "is_charter": false
+          },
+          "supplier_provider": {
+            "provider_name": "FLOT",
+            "provider_office": "3185 (DTK)"
+          }
+        }
+      ]
+    },
+    "errors": []
+  }
+}
